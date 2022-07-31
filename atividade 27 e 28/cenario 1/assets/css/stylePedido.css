@@ -1,0 +1,48 @@
+input[type="number"], input[type="date"]{
+    width: 50%;
+    border: 1px solid rgb(215,215,215);
+    border-radius: 5px;
+    font-size: 3px;
+    outline: 0;
+}
+
+input[type="text"]{
+    width: 100%;
+    border: 1px solid rgb(215,215,215);
+    border-radius: 5px;
+    font-size: 3px;
+    outline: 0;
+}
+
+textarea{
+    font-size:3px;
+    resize: none;
+}
+
+textarea:invalid{
+    border: 2px dashed red;
+}
+
+label{
+    color: rgb(153,153,153); 
+    font-size: 1vh;
+    margin-bottom: 5%;
+}
+
+mark{
+    background-color: white;
+    color: red;
+}
+
+#cadastrarPedido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+#dadosPedido{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;      
+}

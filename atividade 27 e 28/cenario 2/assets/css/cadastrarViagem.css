@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input[type="text"]{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 2px;
+    outline: none;  
+    font-size: 3px;
+}
+
+input[type="submit"]{
+    width: 20%;
+    padding: 2%;
+    font-size: 3px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(58,220,140);
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size: 3px;
+    margin: 5%;   
+}
+
+.formularioCadastrar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10%;
+}

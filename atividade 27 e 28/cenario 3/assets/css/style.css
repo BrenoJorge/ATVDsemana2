@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    width: 15%;
+    padding: 2%;
+    font-size: 35%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(26,45,243);
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;      
+    padding: 10%;
+}
+
+input{
+    padding: 2%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(232,234,254);
+    margin: 0.5%;  
+    width: 100%; 
+    outline: none;     
+}
+
+input::placeholder {
+    color: rgb(100,113,241);
+}
+
+.headerForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Bodyform{
+    display: flex;
+    flex-direction: column; 
+    width: 95%;
+}
