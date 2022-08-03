@@ -4,9 +4,8 @@
 }
 
 button{
-    width: 15%;
-    padding: 2%;
-    font-size: 35%;
+    width: 7%;
+    padding: 1%;
     border: none;
     border-radius: 10px;
     background-color: rgb(26,45,243);
@@ -15,18 +14,19 @@ button{
 
 form{
     display: flex;
+    align-items: center;
     flex-direction: column;      
     padding: 10%;
 }
 
 input{
-    padding: 2%;
+    padding: 4%;
     border: none;
     border-radius: 5px;
     background-color: rgb(232,234,254);
-    margin: 0.5%;  
-    width: 100%; 
-    outline: none;     
+    margin: 1%;  
+    width: 90%; 
+    outline: none;    
 }
 
 input::placeholder {
@@ -34,6 +34,7 @@ input::placeholder {
 }
 
 .headerForm{
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +43,7 @@ input::placeholder {
 }
 
 .Bodyform{
+    width: 20%;
     display: flex;
-    flex-direction: column; 
-    width: 95%;
+    flex-direction: column;
 }
